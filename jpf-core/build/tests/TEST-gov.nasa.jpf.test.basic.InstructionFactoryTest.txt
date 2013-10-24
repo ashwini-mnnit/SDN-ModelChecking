@@ -1,0 +1,22 @@
+Testsuite: gov.nasa.jpf.test.basic.InstructionFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.541 sec
+------------- Standard Output ---------------
+  running jpf with args: +jvm.insn_factory.class=.test.basic.InstructionFactoryTest$MyInsnFactory
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.InstructionFactoryTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+DADD 1.000000 + 41.000000 => 42.000000
+ ..but we negate it just for kicks..
+b=-42.0
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testDadd took 0.523 sec

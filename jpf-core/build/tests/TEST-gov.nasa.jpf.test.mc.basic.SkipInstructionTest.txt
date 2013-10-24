@@ -1,0 +1,46 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.SkipInstructionTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.701 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=gov.nasa.jpf.test.mc.basic.SkipInstructionTest$InvokeListener
+method to intercept: MethodInfo[gov.nasa.jpf.test.mc.basic.SkipInstructionTest.foo(II)I]
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SkipInstructionTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+in MethodInfo[gov.nasa.jpf.test.mc.basic.SkipInstructionTest.foo(II)I]
+in top half: invokevirtual gov.nasa.jpf.test.mc.basic.SkipInstructionTest.foo(II)I
+in MethodInfo[gov.nasa.jpf.test.mc.basic.SkipInstructionTest.foo(II)I]
+in bottom half: iload_1
+listener is skipping method body of MethodInfo[gov.nasa.jpf.test.mc.basic.SkipInstructionTest.foo(II)I] returning 42
+42
+in MethodInfo[gov.nasa.jpf.test.mc.basic.SkipInstructionTest.foo(II)I]
+in bottom half: iload_1
+listener is skipping method body of MethodInfo[gov.nasa.jpf.test.mc.basic.SkipInstructionTest.foo(II)I] returning 43
+43
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +listener=gov.nasa.jpf.test.mc.basic.SkipInstructionTest$GetFieldListener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SkipInstructionTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+now intercepting: getfield
+42
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testSkipMethodBody took 0.489 sec
+Testcase: testGETFIELD took 0.195 sec

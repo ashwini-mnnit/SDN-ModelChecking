@@ -1,0 +1,21 @@
+Testsuite: gov.nasa.jpf.test.java.math.BigIntegerTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.631 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.math.BigIntegerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+testing arithmetic operations of BigInteger objects
+x = 4200000000000000001
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testArithmeticOps took 0.617 sec

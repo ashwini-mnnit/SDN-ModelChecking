@@ -1,0 +1,34 @@
+Testsuite: gov.nasa.jpf.test.mc.threads.DaemonTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.555 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DaemonTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.RuntimeException: blow up
+	at gov.nasa.jpf.test.mc.threads.DaemonTest$T1.run(DaemonTest.java:42)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+
+thread gov.nasa.jpf.test.mc.threads.DaemonTest$T1:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DaemonTest$T1.run(DaemonTest.java:42)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.RuntimeException: blow up  at gov.nasa.j..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testRace took 0.54 sec

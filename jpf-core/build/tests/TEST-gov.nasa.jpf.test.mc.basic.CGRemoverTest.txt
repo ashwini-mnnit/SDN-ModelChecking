@@ -1,0 +1,55 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.CGRemoverTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.926 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=.listener.CGRemover,.test.mc.basic.CGRemoverTest$R1Listener +log.info=gov.nasa.jpf.CGRemover +cgrm.sync.cg_class=gov.nasa.jpf.vm.ThreadChoiceGenerator +cgrm.sync.method_calls=gov.nasa.jpf.test.mc.basic.CGRemoverTest$R1.getData()
+[INFO] added category: sync
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.CGRemoverTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+[INFO] removed CG: gov.nasa.jpf.vm.choice.ThreadChoiceFromSet {id:"SYNC_METHOD_ENTER" ,0/2,isCascaded:false}
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +listener=.listener.CGRemover,.test.mc.basic.CGRemoverTest$R1Listener +log.info=gov.nasa.jpf.CGRemover +cgrm.sync.cg_class=gov.nasa.jpf.vm.ThreadChoiceGenerator +cgrm.sync.method_bodies=gov.nasa.jpf.test.mc.basic.CGRemoverTest$R1.run(),gov.nasa.jpf.test.mc.basic.CGRemoverTest.testSyncBody()
+[INFO] added category: sync
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.CGRemoverTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+[INFO] removed CG: gov.nasa.jpf.vm.choice.ThreadChoiceFromSet {id:"SYNC_METHOD_ENTER" ,0/2,isCascaded:false}
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +listener=.listener.CGRemover,.test.mc.basic.CGRemoverTest$R1Listener +log.info=gov.nasa.jpf.CGRemover +cgrm.sync.cg_class=gov.nasa.jpf.vm.ThreadChoiceGenerator +cgrm.sync.locations=CGRemoverTest.java:45,CGRemoverTest.java:75
+[INFO] added category: sync
+[WARNING] no insns for location: CGRemoverTest\.java:45 in class: gov.nasa.jpf.test.mc.basic.CGRemoverTest
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.CGRemoverTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+[WARNING] no insns for location: CGRemoverTest\.java:75 in class: gov.nasa.jpf.test.mc.basic.CGRemoverTest$R1
+[INFO] removed CG: gov.nasa.jpf.vm.choice.ThreadChoiceFromSet {id:"SYNC_METHOD_ENTER" ,0/2,isCascaded:false}
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testSyncCall took 0.518 sec
+Testcase: testSyncBody took 0.225 sec
+Testcase: testSyncLocation took 0.166 sec

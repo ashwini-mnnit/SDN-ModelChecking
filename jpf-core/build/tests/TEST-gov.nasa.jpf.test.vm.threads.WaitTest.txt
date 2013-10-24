@@ -1,0 +1,180 @@
+Testsuite: gov.nasa.jpf.test.vm.threads.WaitTest
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 1.524 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.WaitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+running testTimeoutWait()
+waiting
+wait timed out
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.WaitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+running testLoopedWait()
+waiting 
+notifying
+notified 
+waiting 
+notifying
+notified 
+notifying
+notified 
+notifying
+waiting 
+notifying
+waiting 
+notified 
+waiting 
+notifying
+waiting 
+notifying
+waiting 
+notifying
+notifying
+waiting 
+notifying
+waiting 
+notifying
+notifying
+notifying
+waiting 
+waiting 
+notifying
+notifying
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.WaitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+running testSyncRunWait()
+main notifying
+thread-0 running
+main notifying
+thread-0 running
+thread-0 running
+main notifying
+thread-0 notified
+thread-0 running
+main notifying
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.WaitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+running testVerySimpleWait()
+waiting
+timed out
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.WaitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+running testInterruptedWait()
+waiting
+interrupting
+waiting
+interrupting
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.WaitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+running testNotifyAll()
+waiter1 waiting
+waiter2 waiting
+main notifying all waiters..
+..done
+waiter1 notified
+waiter2 notified
+waiter2 notified
+waiter2 notified
+waiter2 notified
+waiter1 notified
+main notifying all waiters..
+..done
+waiter2 waiting
+waiter2 waiting
+main notifying all waiters..
+..done
+waiter1 waiting
+waiter1 waiting
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.WaitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+running testSimpleWait()
+waiting
+notifying
+notified
+waiting
+notifying
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testTimeoutWait took 0.499 sec
+Testcase: testLoopedWait took 0.341 sec
+Testcase: testSyncRunWait took 0.151 sec
+Testcase: testVerySimpleWait took 0.127 sec
+Testcase: testInterruptedWait took 0.133 sec
+Testcase: testNotifyAll took 0.136 sec
+Testcase: testSimpleWait took 0.117 sec

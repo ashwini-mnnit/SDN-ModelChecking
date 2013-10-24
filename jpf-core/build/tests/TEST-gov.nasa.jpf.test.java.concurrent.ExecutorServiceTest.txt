@@ -1,0 +1,21 @@
+Testsuite: gov.nasa.jpf.test.java.concurrent.ExecutorServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.789 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.concurrent.ExecutorServiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+run
+run
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testShutdown took 0.775 sec

@@ -1,0 +1,21 @@
+Testsuite: gov.nasa.jpf.test.mc.data.CGCreatorFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.563 sec
+------------- Standard Output ---------------
+  running jpf with args: +jpf-core.native_classpath+=;${jpf-core}/build/tests +jpf-core.test_classpath+=;${jpf-core.native_classpath} +cg-creators=TF:gov.nasa.jpf.test.mc.data.CGCreatorFactoryTest$TestBoolCGCreator
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.CGCreatorFactoryTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.CGCreatorFactoryTest$B.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.CGCreatorFactoryTest$B.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testAddUserDefinedCGCreator took 0.546 sec

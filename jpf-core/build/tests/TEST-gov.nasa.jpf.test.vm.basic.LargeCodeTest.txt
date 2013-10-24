@@ -1,0 +1,19 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.LargeCodeTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.957 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.LargeCodeTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testGotoW took 0.94 sec

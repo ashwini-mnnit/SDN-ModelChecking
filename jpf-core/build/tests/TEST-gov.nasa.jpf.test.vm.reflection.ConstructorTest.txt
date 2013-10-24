@@ -1,0 +1,62 @@
+Testsuite: gov.nasa.jpf.test.vm.reflection.ConstructorTest
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.995 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+I'm an X
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+ctor annotation: @gov.nasa.jpf.test.vm.reflection.ConstructorTest$A(value=this is a ctor annotation)
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+ctor parameter annotation: @gov.nasa.jpf.test.vm.reflection.ConstructorTest$A(value=this is a parameter annotation)
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ConstructorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testConstructorCall took 0.452 sec
+Testcase: testAnnotations took 0.251 sec
+Testcase: testParameterAnnotations took 0.149 sec
+Testcase: testConstructorCallInteger took 0.126 sec

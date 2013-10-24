@@ -1,0 +1,368 @@
+Testsuite: gov.nasa.jpf.test.mc.data.JSONTest
+Tests run: 20, Failures: 0, Errors: 0, Time elapsed: 2.887 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$MySup.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$MyClass.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$MySup.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$Primitives.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IntArr.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$Boxed.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$PrimitiveArrays.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$InnerClass.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$OuterClass.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$OuterClass.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$MultiArray.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$BoxIntsArr.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrayOfObjects.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$IC.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$MultObjectsArr.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ClassWithString.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$Bool.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$Bool.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ByteShortIntLong.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$O.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$O.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$O.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$I.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$ArrI.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$BoxedInteger.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$BoxedInteger.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$BoxedInteger.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.JSONTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$BoxedDouble.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$BoxedDouble.this$0 isn't specified
+[WARNING] Value for field gov.nasa.jpf.test.mc.data.JSONTest$BoxedDouble.this$0 isn't specified
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testFillFromJSONSingleClass took 0.48 sec
+Testcase: testFillFromJSONInheritance took 0.215 sec
+Testcase: testFillPrivimitivesFromJSON took 0.167 sec
+Testcase: testFillIntArrayFromJSON took 0.139 sec
+Testcase: testFillBoxedPrimitivesFromJSON took 0.169 sec
+Testcase: testFillPrimitiveArrays took 0.153 sec
+Testcase: testInnerClassFilling took 0.164 sec
+Testcase: testFillingWhenInnerClassIsNull took 0.13 sec
+Testcase: testMultiArrayFilling took 0.108 sec
+Testcase: testBoxedTypesArrayFilling took 0.091 sec
+Testcase: testArrayOfObjectsFilling took 0.115 sec
+Testcase: testFillingMultArrayOfObjects took 0.1 sec
+Testcase: testFillStringValue took 0.083 sec
+Testcase: testSetBoolFromCG took 0.099 sec
+Testcase: testSetByteShortIntFromCG took 0.096 sec
+Testcase: testFillWithIntevalCG took 0.12 sec
+Testcase: testFillInnerClassCG took 0.089 sec
+Testcase: testFillingObjectInArrayWithCG took 0.106 sec
+Testcase: testObjectFromCG took 0.119 sec
+Testcase: testBoxedDoubleFromCG took 0.12 sec

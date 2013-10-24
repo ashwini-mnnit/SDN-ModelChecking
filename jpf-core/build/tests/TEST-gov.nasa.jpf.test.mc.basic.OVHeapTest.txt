@@ -1,0 +1,77 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.OVHeapTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.621 sec
+------------- Standard Output ---------------
+  running jpf with args: +vm.heap.class=.vm.OVHeap
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.OVHeapTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+from M  ,object: Y.class, ref: 416 new
+from M  ,object: X.class, ref: 413 new
+-- M next X[] arraysize = 1
+from M  ,object: xs-0, ref: 708 new
+from M  ,object: m-y1, ref: 717 new
+from M  ,object: m-x1, ref: 722 new
+from T  ,object: X.class, ref: 413 seen
+from T  ,object: t-x1, ref: 733 new
+from T  ,object: t-y1, ref: 738 new
+-- M next X[] arraysize = 2
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: xs-1, ref: 745 new
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+-- M next X[] arraysize = 3
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: xs-1, ref: 745 seen
+from M  ,object: xs-2, ref: 752 new
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+from T  ,object: X.class, ref: 413 seen
+from T  ,object: t-x1, ref: 733 seen
+from M  ,object: Y.class, ref: 416 seen
+from M  ,object: X.class, ref: 413 seen
+-- M next X[] arraysize = 1
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+from T  ,object: t-y1, ref: 738 seen
+-- M next X[] arraysize = 2
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: xs-1, ref: 745 seen
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+-- M next X[] arraysize = 3
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: xs-1, ref: 745 seen
+from M  ,object: xs-2, ref: 752 seen
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+from T  ,object: t-y1, ref: 738 seen
+from M  ,object: Y.class, ref: 416 seen
+from M  ,object: X.class, ref: 413 seen
+-- M next X[] arraysize = 1
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+-- M next X[] arraysize = 2
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: xs-1, ref: 745 seen
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+-- M next X[] arraysize = 3
+from M  ,object: xs-0, ref: 708 seen
+from M  ,object: xs-1, ref: 745 seen
+from M  ,object: xs-2, ref: 752 seen
+from M  ,object: m-y1, ref: 717 seen
+from M  ,object: m-x1, ref: 722 seen
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testSGOIDs took 0.607 sec

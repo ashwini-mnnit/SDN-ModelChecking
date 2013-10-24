@@ -1,0 +1,26 @@
+Testsuite: gov.nasa.jpf.test.mc.threads.ExceptionalThreadChoiceTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.533 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.ExceptionalThreadChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+    in top half of native foo()
+    in bottom half of native foo()
+main no exception
+    in bottom half of native foo()
+main got SocketTimeoutException
+    in bottom half of native foo()
+main got IOException
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testExceptions took 0.516 sec

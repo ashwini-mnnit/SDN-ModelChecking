@@ -1,0 +1,47 @@
+Testsuite: gov.nasa.jpf.test.java.io.FileTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.866 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.io.FileTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.io.FileTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.io.FileTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testGetCanonical took 0.503 sec
+Testcase: testEquals took 0.209 sec
+Testcase: testGetParentFile took 0.136 sec

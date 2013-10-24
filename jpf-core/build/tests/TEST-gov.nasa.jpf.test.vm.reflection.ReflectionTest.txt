@@ -1,0 +1,23 @@
+Testsuite: gov.nasa.jpf.test.vm.reflection.ReflectionTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.533 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ReflectionTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+-- getCallerClass(0) = class sun.reflect.Reflection
+-- getCallerClass(1) = class gov.nasa.jpf.test.vm.reflection.ReflectionTest$MyClass
+-- getCallerClass(2) = class gov.nasa.jpf.test.vm.reflection.ReflectionTest$MyClass
+-- getCallerClass(3) = class gov.nasa.jpf.test.vm.reflection.ReflectionTest
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testCallerClass took 0.519 sec

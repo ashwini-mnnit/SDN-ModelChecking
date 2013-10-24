@@ -1,0 +1,33 @@
+Testsuite: gov.nasa.jpf.vm.multiProcess.MethodTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.978 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.MethodTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.MethodTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.MethodTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.MethodTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+------------- ---------------- ---------------
+
+Testcase: methodCloneTest took 0.697 sec
+Testcase: methodDeclaringClassTest took 0.262 sec

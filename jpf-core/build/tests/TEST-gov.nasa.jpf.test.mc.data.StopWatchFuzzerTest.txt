@@ -1,0 +1,23 @@
+Testsuite: gov.nasa.jpf.test.mc.data.StopWatchFuzzerTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.534 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=.listener.StopWatchFuzzer
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.StopWatchFuzzerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+some lengthy computation..
+all fine, finished in time
+all fine, finished in time
+panic, we didn't make it in time
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testPaths took 0.52 sec

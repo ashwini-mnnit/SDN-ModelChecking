@@ -1,0 +1,369 @@
+Testsuite: gov.nasa.jpf.test.java.net.URLClassLoaderTest
+Tests run: 20, Failures: 0, Errors: 0, Time elapsed: 3.42 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.NullPointerException: array length of null object
+	at java.net.URLClassLoader.addURLs(URLClassLoader.java:50)
+	at java.net.URLClassLoader.<init>(URLClassLoader.java:41)
+	at gov.nasa.jpf.test.java.net.URLClassLoaderTest.testConstructor_NullPointerException(URLClassLoaderTest.java:78)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.NullPointerException: array length of nu..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.NoClassDefFoundError: IllegalName: java/lang/Class
+	at java.lang.ClassLoader.findSystemClass(gov.nasa.jpf.vm.JPF_java_lang_ClassLoader)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:174)
+	at gov.nasa.jpf.test.java.net.URLClassLoaderTest.testLoadClass_NoClassDefFoundError(URLClassLoaderTest.java:111)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.NoClassDefFoundError: IllegalName: java/..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.ClassNotFoundException: java.lang.Does_Not_Exist
+	at java.net.URLClassLoader.findClass(gov.nasa.jpf.vm.JPF_java_net_URLClassLoader)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:177)
+	at gov.nasa.jpf.test.java.net.URLClassLoaderTest.testLoadClass_ClassNotFoundException(URLClassLoaderTest.java:120)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.ClassNotFoundException: java.lang.Does_N..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.ClassNotFoundException: java.lang.Class.class
+	at java.net.URLClassLoader.findClass(gov.nasa.jpf.vm.JPF_java_net_URLClassLoader)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:177)
+	at gov.nasa.jpf.test.java.net.URLClassLoaderTest.testLoadClass_ClassNotFoundException2(URLClassLoaderTest.java:129)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.ClassNotFoundException: java.lang.Class...."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+[WARNING] unknown classpath element: /x/y/z/
+[WARNING] unknown classpath element: /a/b/c/
+[WARNING] unknown classpath element: /a/b/c/
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.ClassNotFoundException: class not found: classloader_specific_tests.Class1
+	at java.lang.ClassLoader.findSystemClass(gov.nasa.jpf.vm.JPF_java_lang_ClassLoader)
+	at gov.nasa.jpf.test.java.net.URLClassLoaderTest$TestClassLoader.delegateTofindSystemClass(URLClassLoaderTest.java:63)
+	at gov.nasa.jpf.test.java.net.URLClassLoaderTest.testFindSystemClass_ClassNotFoundException(URLClassLoaderTest.java:443)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.ClassNotFoundException: class not found:..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.net.URLClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+Class1 now causing ArithmeticException
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testConstructorEmptyURLs took 0.529 sec
+Testcase: testConstructorParent took 0.256 sec
+Testcase: testConstructor_NullPointerException took 0.186 sec
+Testcase: testLoadClass_NoClassDefFoundError took 0.174 sec
+Testcase: testLoadClass_ClassNotFoundException took 0.156 sec
+Testcase: testFindLoadedClass took 0.177 sec
+Testcase: testLoadClass_ClassNotFoundException2 took 0.155 sec
+Testcase: testSystemLoaderLoadClass took 0.127 sec
+Testcase: testNonSystemLoaderLoadClass took 0.163 sec
+Testcase: testFindResource took 0.175 sec
+Testcase: testFindResources took 0.153 sec
+Testcase: testGetURLs took 0.173 sec
+Testcase: testNewInstance1 took 0.115 sec
+Testcase: testNewInstance2 took 0.147 sec
+Testcase: testClassResolution took 0.171 sec
+Testcase: testFindSystemClass took 0.148 sec
+Testcase: testFindSystemClass_ClassNotFoundException took 0.093 sec
+Testcase: testGetPackages took 0.099 sec
+Testcase: testGetPackage took 0.099 sec
+Testcase: testThrownException took 0.099 sec

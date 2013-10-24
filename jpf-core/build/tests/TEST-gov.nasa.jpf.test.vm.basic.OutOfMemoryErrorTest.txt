@@ -1,0 +1,26 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.OutOfMemoryErrorTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.578 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.OutOfMemoryErrorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+[SEVERE] JPF out of memory
+
+====================================================== search constraint
+JPF out of memory
+
+====================================================== snapshot 
+initial program state
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoOutOfMemoryErrorProperty
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: outOfMemoryErrorFails took 0.559 sec

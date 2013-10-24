@@ -1,0 +1,117 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.701 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.PorSkipFinalsTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: test_SkipFinals_NoSkipStaticFinals_SkipConstructedFinals took 0.573 sec
+Testcase: test_SkipFinals_NoSkipStaticFinals_NoSkipConstructedFinals took 0.211 sec
+Testcase: test_SkipFinals_SkipStaticFinals_NoSkipConstructedFinals took 0.155 sec
+Testcase: test_NoSkipFinals_SkipStaticFinals_SkipConstructedFinals took 0.142 sec
+Testcase: test_NoSkipFinals_SkipStaticFinals_NoSkipConstructedFinals took 0.148 sec
+Testcase: test_NoSkipFinals_NoSkipStaticFinals_SkipConstructedFinals took 0.154 sec
+Testcase: test_NoSkipFinals_NoSkipStaticFinals_NoSkipConstructedFinals took 0.163 sec
+Testcase: test_SkipFinals_SkipStaticFinals_SkipConstructedFinals took 0.132 sec

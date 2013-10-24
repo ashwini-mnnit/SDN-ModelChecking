@@ -1,0 +1,173 @@
+Testsuite: gov.nasa.jpf.test.java.lang.ClassLoaderTest
+Tests run: 12, Failures: 0, Errors: 0, Time elapsed: 2.287 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.ClassLoaderTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testLoadClass took 0.525 sec
+Testcase: testLoadClass2 took 0.206 sec
+Testcase: testGetResources took 0.233 sec
+Testcase: testGetResourceAsStream took 0.234 sec
+Testcase: testGetSystemClassLoader took 0.138 sec
+Testcase: testGetParent took 0.121 sec
+Testcase: testGetParent2 took 0.136 sec
+Testcase: testFoundResources took 0.125 sec
+Testcase: testGetSystemResource took 0.127 sec
+Testcase: testGetSystemResources took 0.162 sec
+Testcase: testGetSystemResourceAsStream took 0.143 sec
+Testcase: testGetResource took 0.114 sec

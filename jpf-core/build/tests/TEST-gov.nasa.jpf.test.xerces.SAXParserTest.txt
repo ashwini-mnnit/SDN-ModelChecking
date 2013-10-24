@@ -1,0 +1,22 @@
+Testsuite: gov.nasa.jpf.test.xerces.SAXParserTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2.476 sec
+------------- Standard Output ---------------
+  running jpf with args: +http.connection=http://*.dtd -- gov.nasa.jpf.CachedROHttpConnection +http.cache_dir=src/tests/gov/nasa/jpf/test/xerces +log.info=http
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.xerces.SAXParserTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+[INFO] mapping URL pattern http://*.dtd to gov.nasa.jpf.CachedROHttpConnection
+[INFO] using gov.nasa.jpf.CachedROHttpConnection for URL http://www.puppycrawl.com/dtds/configuration_1_3.dtd
+[INFO] reading contents of http://www.puppycrawl.com/dtds/configuration_1_3.dtd from file src/tests/gov/nasa/jpf/test/xerces/http%^^www.puppycrawl.com^dtds^configuration_1_3.dtd
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testSimpleParse took 2.453 sec

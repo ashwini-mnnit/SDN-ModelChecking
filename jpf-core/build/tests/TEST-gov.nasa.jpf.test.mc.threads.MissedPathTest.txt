@@ -1,0 +1,116 @@
+Testsuite: gov.nasa.jpf.test.mc.threads.MissedPathTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.016 sec
+------------- Standard Output ---------------
+  running jpf with args: +vm.por.break_on_exposure=true
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.MissedPathTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.AssertionError: gotcha
+	at gov.nasa.jpf.test.mc.threads.MissedPathTest$StaticFieldPropagation.run(MissedPathTest.java:75)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.MissedPathTest.testStaticFieldPropagation(MissedPathTest.java:94)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+thread gov.nasa.jpf.test.mc.threads.MissedPathTest$StaticFieldPropagation:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.MissedPathTest$StaticFieldPropagation.run(MissedPathTest.java:75)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.AssertionError: gotcha  at gov.nasa.jpf...."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +vm.storage.class=nil
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.MissedPathTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+M: new gov.nasa.jpf.test.mc.threads.MissedPathTest$X@43629
+M: x.pass=true
+T: accessed global myX
+M: new gov.nasa.jpf.test.mc.threads.MissedPathTest$X@43629
+M: x.pass=true
+T: accessed global myX
+M: x.pass=true
+T: accessed global myX
+T: accessed global myX
+M: x.pass=true
+M: x.pass=true
+T: accessed global myX
+T: accessed global myX
+M: x.pass=true
+M: new gov.nasa.jpf.test.mc.threads.MissedPathTest$X@43629
+M: x.pass=true
+T: accessed global myX
+T: accessed global myX
+M: x.pass=true
+T: accessed global myX
+M: x.pass=true
+T: accessed global myX
+M: new gov.nasa.jpf.test.mc.threads.MissedPathTest$X@43629
+M: x.pass=true
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +vm.por.break_on_exposure=true
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.MissedPathTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+M: new gov.nasa.jpf.test.mc.threads.MissedPathTest$X@43631
+M: x.pass=true
+T: accessed global myX
+M: new gov.nasa.jpf.test.mc.threads.MissedPathTest$X@43631
+M: x.pass=true
+T: accessed global myX
+T: accessed global myX
+M: x.pass=true
+M: x.pass=true
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.AssertionError: gotcha
+	at gov.nasa.jpf.test.mc.threads.MissedPathTest$InstanceFieldPropagation.run(MissedPathTest.java:41)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.MissedPathTest.testInstanceFieldPropagation(MissedPathTest.java:59)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+thread gov.nasa.jpf.test.mc.threads.MissedPathTest$InstanceFieldPropagation:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.MissedPathTest$InstanceFieldPropagation.run(MissedPathTest.java:41)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.AssertionError: gotcha  at gov.nasa.jpf...."
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testStaticFieldPropagation took 0.57 sec
+Testcase: testCompetingExposures took 0.229 sec
+Testcase: testInstanceFieldPropagation took 0.197 sec

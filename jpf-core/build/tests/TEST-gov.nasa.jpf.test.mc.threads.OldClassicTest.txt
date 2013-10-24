@@ -1,0 +1,79 @@
+Testsuite: gov.nasa.jpf.test.mc.threads.OldClassicTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.815 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.OldClassicTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@18d
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:39)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask.run(OldClassicTest.java:62)
+
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@18e
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:39)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask.run(OldClassicTest.java:88)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread gov.nasa.jpf.test.m..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +search.class=gov.nasa.jpf.search.heuristic.BFSHeuristic
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.OldClassicTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@18f
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:39)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$FirstTask.run(OldClassicTest.java:62)
+
+thread gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.OldClassicTest$Event@190
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$Event.wait_for_event(OldClassicTest.java:39)
+	at gov.nasa.jpf.test.mc.threads.OldClassicTest$SecondTask.run(OldClassicTest.java:88)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread gov.nasa.jpf.test.m..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testDFSearch took 0.577 sec
+Testcase: testBFSHeuristic took 0.22 sec

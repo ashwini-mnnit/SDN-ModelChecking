@@ -1,0 +1,188 @@
+Testsuite: gov.nasa.jpf.test.java.lang.StringTest
+Tests run: 13, Failures: 0, Errors: 0, Time elapsed: 2.33 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+3.141592653589793
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.StringTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testIntern took 0.508 sec
+Testcase: testNullChar took 0.228 sec
+Testcase: testConstructors took 0.27 sec
+Testcase: testEquals took 0.122 sec
+Testcase: testStartsWith took 0.117 sec
+Testcase: testEndsWith took 0.115 sec
+Testcase: testTrim took 0.111 sec
+Testcase: testReplace took 0.113 sec
+Testcase: testIndexOf took 0.09 sec
+Testcase: testCompareTo took 0.083 sec
+Testcase: testToCharArray took 0.085 sec
+Testcase: testMethods took 0.289 sec
+Testcase: testContentEquals took 0.181 sec

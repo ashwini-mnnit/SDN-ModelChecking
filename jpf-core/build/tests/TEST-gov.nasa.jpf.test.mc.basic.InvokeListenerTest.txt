@@ -1,0 +1,53 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.InvokeListenerTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.869 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=.test.mc.basic.InvokeListenerTest$Listener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.InvokeListenerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+# executeInstruction: gov.nasa.jpf.test.mc.basic.InvokeListenerTest@17c.testInstanceMethod (42.0,1)
+# instructionExecuted: gov.nasa.jpf.test.mc.basic.InvokeListenerTest@17c.testInstanceMethod (42.0,1)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +listener=.test.mc.basic.InvokeListenerTest$Listener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.InvokeListenerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+# executeInstruction: gov.nasa.jpf.test.mc.basic.InvokeListenerTest@17c.testStaticMethod (42)
+# instructionExecuted: gov.nasa.jpf.test.mc.basic.InvokeListenerTest@17c.testStaticMethod (42)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +listener=.test.mc.basic.InvokeListenerTest$Listener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.InvokeListenerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+# executeInstruction: gov.nasa.jpf.test.mc.basic.InvokeListenerTest@17c.testNativeInstanceMethod (42.0,1)
+# instructionExecuted: gov.nasa.jpf.test.mc.basic.InvokeListenerTest@17c.testNativeInstanceMethod (42.0,1)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testInstanceMethod took 0.506 sec
+Testcase: testStaticMethod took 0.207 sec
+Testcase: testNativeInstanceMethod took 0.138 sec

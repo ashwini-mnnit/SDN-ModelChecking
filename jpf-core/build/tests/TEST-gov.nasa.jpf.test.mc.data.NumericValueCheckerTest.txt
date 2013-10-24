@@ -1,0 +1,61 @@
+Testsuite: gov.nasa.jpf.test.mc.data.NumericValueCheckerTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.739 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=.listener.NumericValueChecker +range.vars=x +range.x.var=*$C2.doSomething(int):x +range.x.min=42
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.NumericValueCheckerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.listener.NumericValueChecker
+local variable x out of range: -42 < 42
+	 at gov.nasa.jpf.test.mc.data.NumericValueCheckerTest$C2.doSomething(NumericValueCheckerTest.java:54)
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.data.NumericValueCheckerTest$C2.doSomething(NumericValueCheckerTest.java:55)
+	at gov.nasa.jpf.test.mc.data.NumericValueCheckerTest.testVars(NumericValueCheckerTest.java:66)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.listener.NumericValueChecker "local variable x out of range: -42 < 42   at gov.n..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +listener=.listener.NumericValueChecker +range.fields=d +range.d.field=*.NumericValueCheckerTest$C1.d +range.d.min=42
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.NumericValueCheckerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.listener.NumericValueChecker
+field gov.nasa.jpf.test.mc.data.NumericValueCheckerTest$C1.d out of range: 0.000000 < 42.000000
+	 at gov.nasa.jpf.test.mc.data.NumericValueCheckerTest$C1.setValue(NumericValueCheckerTest.java:35)
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.data.NumericValueCheckerTest$C1.setValue(NumericValueCheckerTest.java:36)
+	at gov.nasa.jpf.test.mc.data.NumericValueCheckerTest.testField(NumericValueCheckerTest.java:47)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.listener.NumericValueChecker "field gov.nasa.jpf.test.mc.data.NumericValueChecke..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testVars took 0.496 sec
+Testcase: testField took 0.229 sec

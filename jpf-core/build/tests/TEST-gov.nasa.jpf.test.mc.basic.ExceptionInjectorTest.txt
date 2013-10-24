@@ -1,0 +1,60 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.889 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=.listener.ExceptionInjector +ei.exception=java.lang.ArithmeticException@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest:42
+java.lang.ArithmeticException@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest:42
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+got it handled
+java.lang.ArithmeticException
+	at gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testAbsLine(ExceptionInjectorTest.java:42)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +listener=.listener.ExceptionInjector +ei.exception=gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest$Zapp("gotcha")@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testMethodOffset():6
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest$Zapp("gotcha")@gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testMethodOffset():6
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest$Zapp: gotcha
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +listener=.listener.ExceptionInjector +ei.exception=java.io.IOException@java.io.File.createTempFile(java.lang.String,java.lang.String)
+java.io.IOException@java.io.File.createTempFile(Ljava/lang/String;Ljava/lang/String;)
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+java.io.IOException
+	at gov.nasa.jpf.test.mc.basic.ExceptionInjectorTest.testCallee(ExceptionInjectorTest.java:84)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testAbsLine took 0.534 sec
+Testcase: testMethodOffset took 0.199 sec
+Testcase: testCallee took 0.137 sec

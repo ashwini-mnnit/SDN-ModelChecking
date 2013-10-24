@@ -1,0 +1,97 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.SharedRefTest
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 1.24 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedRefTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.AssertionError: Argh, data race for o
+	at gov.nasa.jpf.test.mc.basic.SharedRefTest.run(SharedRefTest.java:56)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedRefTest.run(SharedRefTest.java:56)
+
+thread java.lang.Thread:{id:2,name:Thread-2,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedRefTest.run(SharedRefTest.java:56)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.AssertionError: Argh, data race for o  a..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedRefTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedRefTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.AssertionError: Argh, data race for o
+	at gov.nasa.jpf.test.mc.basic.SharedRefTest.run(SharedRefTest.java:56)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedRefTest.run(SharedRefTest.java:56)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.AssertionError: Argh, data race for o  a..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedRefTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+M inc
+M dec
+T inc
+T dec
+T inc
+T dec
+M inc
+M dec
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testShared took 0.582 sec
+Testcase: testNonShared took 0.315 sec
+Testcase: testSharedStaticRoot took 0.168 sec
+Testcase: testShareControl took 0.154 sec

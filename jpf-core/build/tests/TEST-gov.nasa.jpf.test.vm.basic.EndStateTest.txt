@@ -1,0 +1,41 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.EndStateTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.741 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=.test.vm.basic.EndStateListener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.EndStateTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+** this is testSingleThread - it should succeed
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +listener=.test.vm.basic.EndStateListener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.EndStateTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+** this is testMultipleThreads - it should succeed
+** this is thread main terminating
+** this is Thread-1 terminating
+** this is thread main terminating
+** this is Thread-1 terminating
+** this is Thread-1 terminating
+** this is thread main terminating
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testSingleThread took 0.49 sec
+Testcase: testMultipleThreads took 0.235 sec

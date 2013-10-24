@@ -1,0 +1,131 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.ArrayTest
+Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 1.658 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testIntArray took 0.532 sec
+Testcase: testStringArray took 0.207 sec
+Testcase: testArrayCopy took 0.141 sec
+Testcase: testArrayStoreException took 0.133 sec
+Testcase: testAoBX took 0.129 sec
+Testcase: testArrayStoreExceptionArraycopy took 0.132 sec
+Testcase: testCharArray took 0.119 sec
+Testcase: test2DArray took 0.134 sec
+Testcase: test2DStringArray took 0.109 sec

@@ -1,0 +1,269 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.AnnotationTest
+Tests run: 18, Failures: 0, Errors: 0, Time elapsed: 2.437 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+@gov.nasa.jpf.test.vm.basic.AnnotationTest$A4(a=one,b=42.0)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+@gov.nasa.jpf.test.vm.basic.AnnotationTest$A5(a=whatever,b=foo)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+@gov.nasa.jpf.test.vm.basic.AnnotationTest$A6(value=whatever)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+  a[0] = @gov.nasa.jpf.test.vm.basic.AnnotationTest$A6(value=whatever)
+  a[1] = @org.junit.Test(expected=class org.junit.Test$None,timeout=0)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +listener=.test.vm.basic.AnnotationTest$DataListener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+annotation for gov.nasa.jpf.test.vm.basic.AnnotationTest$MyClass.data = gov.nasa.jpf.vm.AnnotationInfo@1d49559
+   value = the answer
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +listener=.test.vm.basic.AnnotationTest$ArgListener
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+-- called method: foo(Lgov/nasa/jpf/test/vm/basic/AnnotationTest$MyClass;Ljava/lang/String;)V
+-- annotations for parameter: 0
+@gov.nasa.jpf.test.vm.basic.AnnotationTest$A1[value=arghh]
+-- annotations for parameter: 1
+none
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AnnotationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testStringValueOk took 0.436 sec
+Testcase: testStringArrayValueOk took 0.187 sec
+Testcase: testLongValueOk took 0.192 sec
+Testcase: testNamedParamsOk took 0.135 sec
+Testcase: testPartialDefaultParamsOk took 0.134 sec
+Testcase: testSingleDefaultParamOk took 0.128 sec
+Testcase: testAnnotationClass took 0.129 sec
+Testcase: testEnumValue took 0.14 sec
+Testcase: testClassValue took 0.11 sec
+Testcase: testClassArrayValueOk took 0.091 sec
+Testcase: testFieldAnnotation took 0.084 sec
+Testcase: testParameterAnnotation took 0.093 sec
+Testcase: getAnnotationsTest took 0.109 sec
+Testcase: testRecursiveRuntimeVisibleAnnotationValue took 0.087 sec
+Testcase: testCharAnnotation took 0.083 sec
+Testcase: testFloatAnnotation took 0.099 sec
+Testcase: testDoubleAnnotation took 0.074 sec
+Testcase: testLongAnnotation took 0.102 sec

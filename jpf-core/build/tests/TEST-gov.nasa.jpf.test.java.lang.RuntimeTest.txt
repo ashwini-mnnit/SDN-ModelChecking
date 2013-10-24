@@ -1,0 +1,21 @@
+Testsuite: gov.nasa.jpf.test.java.lang.RuntimeTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.572 sec
+------------- Standard Output ---------------
+  running jpf with args: +cg.max_processors=2
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.RuntimeTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+-- available processors: 1
+-- available processors: 2
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testAvailableProcessors took 0.55 sec

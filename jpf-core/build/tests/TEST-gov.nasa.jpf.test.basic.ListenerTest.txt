@@ -1,0 +1,21 @@
+Testsuite: gov.nasa.jpf.test.basic.ListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.53 sec
+------------- Standard Output ---------------
+  running jpf with args: +vm.class=gov.nasa.jpf.test.basic.ListenerTest$TestVM
+-- listener got searchStarted() notification
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.ListenerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+this is verified by JPF
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testPendingListeners took 0.513 sec

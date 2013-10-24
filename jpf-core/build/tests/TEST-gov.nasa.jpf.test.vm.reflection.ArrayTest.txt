@@ -1,0 +1,33 @@
+Testsuite: gov.nasa.jpf.test.vm.reflection.ArrayTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.737 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.ArrayTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testArrayDouble took 0.494 sec
+Testcase: testArrayInt took 0.227 sec

@@ -1,0 +1,26 @@
+Testsuite: gov.nasa.jpf.test.java.io.FileIOTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.679 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.io.FileIOTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+##---- writing: _test_
+## write got here: 0
+##---- checking file system attributes
+##---- reading: _test_
+## read got here: 0
+##---- comparing
+##---- done
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testRoundtrip took 0.664 sec

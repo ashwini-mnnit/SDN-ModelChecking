@@ -1,0 +1,47 @@
+Testsuite: gov.nasa.jpf.vm.multiProcess.TypeSeparationTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.127 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.TypeSeparationTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.TypeSeparationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.TypeSeparationTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.TypeSeparationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.TypeSeparationTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.TypeSeparationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+------------- ---------------- ---------------
+
+Testcase: systemClassLoaderTest took 0.646 sec
+Testcase: annotationsTest took 0.244 sec
+Testcase: staticCounterTest took 0.218 sec

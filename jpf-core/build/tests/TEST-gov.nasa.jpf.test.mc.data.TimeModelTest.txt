@@ -1,0 +1,47 @@
+Testsuite: gov.nasa.jpf.test.mc.data.TimeModelTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.785 sec
+------------- Standard Output ---------------
+  running jpf with args: +vm.time.class=.vm.SystemTime
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.TimeModelTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+t1 = 1382582002785
+  t2 = 1382582002819
+    t3 = 1382582002824
+    t3 = 1382582002830
+  t2 = 1382582002836
+    t3 = 1382582002843
+    t3 = 1382582002849
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +vm.time.class=.vm.ConstInsnPathTime
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.TimeModelTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+t1 = 3329
+  t2 = 3353
+    t3 = 3385
+    t3 = 3385
+  t2 = 3353
+    t3 = 3398
+    t3 = 3398
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testSystemTime took 0.528 sec
+Testcase: testPathTime took 0.241 sec

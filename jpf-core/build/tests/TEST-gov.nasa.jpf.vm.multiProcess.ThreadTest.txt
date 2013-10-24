@@ -1,0 +1,47 @@
+Testsuite: gov.nasa.jpf.vm.multiProcess.ThreadTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.256 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener=gov.nasa.jpf.vm.multiProcess.ThreadTest$InterleaveCheckListener +vm.max_transition_length=MAX
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.ThreadTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.ThreadTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.ThreadTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+------------- ---------------- ---------------
+
+Testcase: threadInterleavingTest took 0.688 sec
+Testcase: mainThreadsIdTest took 0.258 sec
+Testcase: numOfThreadsTest took 0.292 sec

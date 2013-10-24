@@ -1,0 +1,22 @@
+Testsuite: gov.nasa.jpf.util.script.ScriptEnvironmentTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.033 sec
+------------- Standard Output ---------------
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testMove",start,foo]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testMove",a1,a2,bar]
+[A,C] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testMove",r,du]
+[B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoice[id="testMove",foo]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testBacktrack-1",start,foo]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testBacktrack-2",a1,a2,bar]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testBacktrack-3",r,baz]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testBacktrack-4",r,baz]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testNoMove",start,foo]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testNoMove",a1,a2,bar]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoiceSet[id="testNoMove",r,baz]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoice[id="testNoMove",r]
+[A,B] => gov.nasa.jpf.util.script.ScriptEnvironmentTest$EventChoice[id="testNoMove",end]
+[A,B] => null
+------------- ---------------- ---------------
+
+Testcase: testMoveSequence took 0.013 sec
+Testcase: testBacktrack took 0 sec
+Testcase: testNoMoveSequence took 0.001 sec

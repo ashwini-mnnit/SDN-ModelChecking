@@ -1,0 +1,79 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.RecursiveClinitTest
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 1.002 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.RecursiveClinitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+main now referencing Derived.d
+Base clinit
+Derived clinit
+back in main
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.RecursiveClinitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+main now calling Derived.class.newInstance()
+Base clinit
+Derived clinit
+back in main
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.RecursiveClinitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+Base clinit
+Derived clinit
+main now calling Derived.foo()
+Derived.foo()
+back in main
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.RecursiveClinitTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+Base clinit
+Derived clinit
+main now creating Derived(-42)
+Derived(-42)
+back in main
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testStaticField took 0.457 sec
+Testcase: testNewInstance took 0.236 sec
+Testcase: testMethodReflection took 0.144 sec
+Testcase: testCtorReflection took 0.149 sec

@@ -1,0 +1,131 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.AssertTest
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 1.649 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AssertTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AssertTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +vm.disable_assertions=*
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AssertTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AssertTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.AssertionError: oops, assertion failed
+	at gov.nasa.jpf.test.vm.basic.AssertTest.testAssertionViolation(AssertTest.java:40)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.AssertionError: oops, assertion failed  ..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AssertTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.AssertionError: oops, assertion failed
+	at gov.nasa.jpf.test.vm.basic.AssertTest.testSetClassAssertionStatus1(AssertTest.java:69)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.AssertionError: oops, assertion failed  ..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +vm.disable_assertions=*AssertTest
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AssertTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.AssertTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testSetPackageAssertionStatus took 0.64 sec
+Testcase: testSetDefaultAssertionStatus took 0.22 sec
+Testcase: testClearAssertionStatus took 0.203 sec
+Testcase: testAssertionViolation took 0.154 sec
+Testcase: testSetClassAssertionStatus1 took 0.134 sec
+Testcase: testNoAssertionViolation took 0.12 sec
+Testcase: testSetClassAssertionStatus2 took 0.157 sec

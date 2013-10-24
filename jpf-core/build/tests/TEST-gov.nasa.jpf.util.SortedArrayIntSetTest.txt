@@ -1,0 +1,18 @@
+Testsuite: gov.nasa.jpf.util.SortedArrayIntSetTest
+Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.02 sec
+------------- Standard Output ---------------
+{0,41,42,43}
+123
+comparing {0,41,42} with {0,41,42}
+comparing {0,41,42} with {0,41,42}
+comparing {0,41,42} with {0,41,42}
+comparing {0,41,42} with {0,41,42}
+comparing {0,41,42} with {0,41,42}
+------------- ---------------- ---------------
+
+Testcase: testInsert took 0.002 sec
+Testcase: testRemove took 0 sec
+Testcase: testRemoveLast took 0 sec
+Testcase: testRemoveFirst took 0 sec
+Testcase: testIterator took 0 sec
+Testcase: testComparison took 0 sec

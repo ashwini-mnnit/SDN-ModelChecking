@@ -1,0 +1,41 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.FinalFieldChoiceTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.79 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.FinalFieldChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+a=false, b=false
+a=false, b=true
+a=true, b=false
+a=true, b=true
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.FinalFieldChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+Y.a=false, Y.b=false
+Y.a=false, Y.b=true
+Y.a=true, Y.b=false
+Y.a=true, Y.b=true
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testFinalInstanceFields took 0.551 sec
+Testcase: testFinalStaticFields took 0.222 sec

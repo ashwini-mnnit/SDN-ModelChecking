@@ -1,0 +1,75 @@
+Testsuite: gov.nasa.jpf.test.mc.data.RandomTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.922 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.RandomTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+0
+1
+2
+3
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +search.class=gov.nasa.jpf.search.heuristic.BFSHeuristic
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.RandomTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+0
+1
+2
+3
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +cg.enumerate_random=true
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.RandomTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+a=0
+a=0,b=0
+a=0,b=0,c=0
+a=0,b=1
+a=0,b=1,c=0
+a=0,b=2
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.ArithmeticException: division by zero
+	at gov.nasa.jpf.test.mc.data.RandomTest.testJavaUtilRandom(RandomTest.java:87)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:605)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.ArithmeticException: division by zero  a..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testRandom took 0.529 sec
+Testcase: testRandomBFS took 0.225 sec
+Testcase: testJavaUtilRandom took 0.15 sec

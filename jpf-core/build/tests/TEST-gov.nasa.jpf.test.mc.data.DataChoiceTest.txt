@@ -1,0 +1,94 @@
+Testsuite: gov.nasa.jpf.test.mc.data.DataChoiceTest
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.214 sec
+------------- Standard Output ---------------
+  running jpf with args: +my_int_from_set.class=gov.nasa.jpf.vm.choice.IntChoiceFromSet +my_int_from_set.values=1,2,3,intField,localVar
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.DataChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+1
+2
+3
+42
+43
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.DataChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+1
+2
+3
+4
+5
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +my_double_from_set.class=gov.nasa.jpf.vm.choice.DoubleChoiceFromSet +my_double_from_set.values=42.0,43.5,doubleField,localVar
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.DataChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+42.0
+43.5
+-42.0
+4200.0
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.DataChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+-42.0
+0.0
+42.0
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +my_typed_object.class=gov.nasa.jpf.vm.choice.TypedObjectChoice +my_typed_object.type=gov.nasa.jpf.test.mc.data.DataChoiceTest$MyType
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.data.DataChoiceTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+MyType one
+MyType two
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testIntFromSet took 0.543 sec
+Testcase: testIntFromArray took 0.218 sec
+Testcase: testDoubleFromSet took 0.158 sec
+Testcase: testDoubleFromArray took 0.139 sec
+Testcase: testTypedObjectChoice took 0.138 sec

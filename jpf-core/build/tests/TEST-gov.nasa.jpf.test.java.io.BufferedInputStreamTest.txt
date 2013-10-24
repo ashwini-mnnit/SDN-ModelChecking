@@ -1,0 +1,22 @@
+Testsuite: gov.nasa.jpf.test.java.io.BufferedInputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.541 sec
+------------- Standard Output ---------------
+setUp() creating test file
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.io.BufferedInputStreamTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+42,42,42,
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+setUp() deleting test file
+------------- ---------------- ---------------
+
+Testcase: testSimpleRead took 0.526 sec

@@ -1,0 +1,137 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.SharedPropagationTest
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 1.179 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Gotcha
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T2.run(SharedPropagationTest.java:103)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T2.main(SharedPropagationTest.java:97)
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest.testLevel1Ref(SharedPropagationTest.java:112)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+thread gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T2:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T2.run(SharedPropagationTest.java:103)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "gov.nasa.jpf.test.mc.basic.SharedPropagationTest$G..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +vm.por.shared.class=.vm.GlobalTrackingPolicy
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Gotcha
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Timeout.run(SharedPropagationTest.java:203)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Hyber.main(SharedPropagationTest.java:170)
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest.testHyber(SharedPropagationTest.java:213)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+thread gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Timeout:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Timeout.run(SharedPropagationTest.java:206)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "gov.nasa.jpf.test.mc.basic.SharedPropagationTest$G..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +vm.por.shared.class=.vm.GlobalTrackingPolicy
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Gotcha
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T1.run(SharedPropagationTest.java:58)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T1.main(SharedPropagationTest.java:52)
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest.testLocalRef(SharedPropagationTest.java:67)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+thread gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T1:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T1.run(SharedPropagationTest.java:58)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "gov.nasa.jpf.test.mc.basic.SharedPropagationTest$G..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args: +vm.por.shared.class=.vm.GlobalTrackingPolicy
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+gov.nasa.jpf.test.mc.basic.SharedPropagationTest$Gotcha
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T3.run(SharedPropagationTest.java:147)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T3.main(SharedPropagationTest.java:141)
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest.testStaticFieldPropagation(SharedPropagationTest.java:156)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+thread gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T3:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.mc.basic.SharedPropagationTest$T3.run(SharedPropagationTest.java:147)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "gov.nasa.jpf.test.mc.basic.SharedPropagationTest$G..."
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testLevel1Ref took 0.583 sec
+Testcase: testHyber took 0.243 sec
+Testcase: testLocalRef took 0.182 sec
+Testcase: testStaticFieldPropagation took 0.152 sec

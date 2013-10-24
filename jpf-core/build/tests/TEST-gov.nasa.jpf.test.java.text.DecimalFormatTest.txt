@@ -1,0 +1,103 @@
+Testsuite: gov.nasa.jpf.test.java.text.DecimalFormatTest
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 1.625 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DecimalFormatTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DecimalFormatTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DecimalFormatTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DecimalFormatTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DecimalFormatTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DecimalFormatTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.text.DecimalFormatTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:32 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:32 PM
+------------- ---------------- ---------------
+
+Testcase: testDoubleConversion took 0.547 sec
+Testcase: testSetGroupingUsed took 0.199 sec
+Testcase: testIsGroupingUsed took 0.144 sec
+Testcase: testParseDouble took 0.285 sec
+Testcase: testParseInt took 0.137 sec
+Testcase: testParseError took 0.158 sec
+Testcase: testIsParseIntegerOnly took 0.136 sec

@@ -1,0 +1,50 @@
+Testsuite: gov.nasa.jpf.test.vm.basic.EnumTest
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.9 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.EnumTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.EnumTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+A
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.basic.EnumTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+this is ONE
+this is TWO
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testValueOf took 0.506 sec
+Testcase: testEnumSet took 0.231 sec
+Testcase: testEnumerate took 0.147 sec

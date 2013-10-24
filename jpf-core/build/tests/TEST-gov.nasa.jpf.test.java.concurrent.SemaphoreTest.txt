@@ -1,0 +1,238 @@
+Testsuite: gov.nasa.jpf.test.java.concurrent.SemaphoreTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.973 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.concurrent.SemaphoreTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+Thread-1 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-2 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-1 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-2 acquiring resource..
+Thread-1 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-1 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-2 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 released
+Thread-2 acquiring resource..
+Thread-1 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-2 released
+Thread-1 released
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-1 releasing resource: Resource-0
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-1 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-2 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-1 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-1 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-2 released
+Thread-1 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 got resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 releasing resource: Resource-0
+Thread-2 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 released
+Thread-2 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-2 releasing resource: Resource-0
+Thread-1 acquiring resource..
+Thread-2 got resource: Resource-0
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-1 acquiring resource..
+Thread-2 releasing resource: Resource-0
+Thread-1 acquiring resource..
+Thread-2 released
+Thread-1 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-1 released
+Thread-1 acquiring resource..
+Thread-2 acquiring resource..
+Thread-1 got resource: Resource-0
+Thread-1 releasing resource: Resource-0
+Thread-1 released
+Thread-2 acquiring resource..
+Thread-2 acquiring resource..
+Thread-1 released
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testResourceAcquisition took 0.958 sec

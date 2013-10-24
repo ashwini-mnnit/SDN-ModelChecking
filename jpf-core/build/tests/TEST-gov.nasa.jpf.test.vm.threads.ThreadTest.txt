@@ -1,0 +1,192 @@
+Testsuite: gov.nasa.jpf.test.vm.threads.ThreadTest
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 1.827 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +cg.threads.break_start=true +cg.threads.break_yield=true
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+[main] joining..
+[main] joined, t state: RUNNABLE
+[t] started
+[t] finished
+[main] joined, t state: RUNNABLE
+[t] started
+[t] finished
+[t] started
+[t] finished
+[main] joined, t state: TERMINATED
+[main] joining..
+[main] joined, t state: RUNNABLE
+[t] started
+[t] finished
+[t] started
+[t] finished
+[main] joining..
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+-- t waiting
+-- main thread interrupting...
+-- t interrupted
+-- t terminated
+-- main thread terminated
+-- t waiting
+-- main thread interrupting...
+-- t waiting
+-- main thread interrupting...
+-- t waiting
+-- main thread interrupting...
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+-- main thread started
+-- t started
+-- t terminated
+-- main thread terminated
+-- t started
+-- t terminated
+-- t terminated
+-- t terminated
+-- t terminated
+-- main thread terminated
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +cg.threads.break_start=true +cg.threads.break_yield=true
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+main terminating
+  daemon running in round: 1
+main terminating
+main terminating
+main terminating
+main terminating
+  daemon running in round: 1
+main terminating
+  daemon running in round: 1
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testName took 0.514 sec
+Testcase: testYield took 0.237 sec
+Testcase: testPriority took 0.146 sec
+Testcase: testJoin took 0.147 sec
+Testcase: testTimeoutJoin took 0.163 sec
+Testcase: testInterrupt took 0.14 sec
+Testcase: testSimpleThreadGroup took 0.127 sec
+Testcase: testDaemon took 0.139 sec
+Testcase: testDaemonTermination took 0.111 sec
+Testcase: testMain took 0.084 sec

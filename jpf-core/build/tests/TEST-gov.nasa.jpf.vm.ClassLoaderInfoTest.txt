@@ -1,0 +1,4 @@
+Testsuite: gov.nasa.jpf.vm.ClassLoaderInfoTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.408 sec
+
+Testcase: testSystemClassLoader took 0.393 sec

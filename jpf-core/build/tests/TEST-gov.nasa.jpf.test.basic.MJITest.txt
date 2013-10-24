@@ -1,0 +1,220 @@
+Testsuite: gov.nasa.jpf.test.basic.MJITest
+Tests run: 12, Failures: 0, Errors: 0, Time elapsed: 1.932 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeException()
+java.lang.UnsupportedOperationException: caught me
+	at gov.nasa.jpf.test.basic.MJITest.nativeException(gov.nasa.jpf.test.basic.JPF_gov_nasa_jpf_test_basic_MJITest)
+	at gov.nasa.jpf.test.basic.MJITest.testNativeException(MJITest.java:116)
+	at java.lang.reflect.Method.invoke(gov.nasa.jpf.vm.JPF_java_lang_reflect_Method)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeCrash()
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeInstanceMethod() d=2.0, c=?, b=true, i=40
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeStaticMethod()
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeRoundtripLoop(): 42
+### roundtrip 43
+# entering nativeInnerRoundtrip()
+# entering nativeRoundtripLoop(): 42
+### roundtrip 46
+# entering nativeInnerRoundtrip()
+# entering nativeRoundtripLoop(): 42
+### roundtrip 49
+# entering nativeInnerRoundtrip()
+# entering nativeRoundtripLoop(): 42
+### roundtrip 52
+# entering nativeInnerRoundtrip()
+# entering nativeRoundtripLoop(): 42
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+## entering testHiddenroundtrip()
+## in echo : 20
+# entering nativeHiddenRoundtrip: 21
+## in atomicStuff : 21
+## in echo : 22
+# exit nativeHiddenRoundtrip: 22
+## exiting testHiddenroundtrip()
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+## entering testHiddenroundtripException()
+## in echo : 20
+# entering nativeHiddenRoundtrip: -1
+## in atomicStuff : -1
+## atomicStuff throwing IllegalArgumentException
+# hidden method execution failed, leaving nativeHiddenRoundtrip: gov.nasa.jpf.vm.UncaughtException: uncaught exception in thread main #0 : java.lang.IllegalArgumentException : "negative atomicStuff argument"
+## exiting testHiddenroundtripException()
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering native <init>(I)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeCreate2DimIntArray()
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeCreateIntArray()
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.basic.MJITest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+# entering native <clinit>
+# entering nativeCreateStringArray()
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testNativeException took 0.477 sec
+Testcase: testNativeCrash took 0.221 sec
+Testcase: testNativeInstanceMethod took 0.139 sec
+Testcase: testNativeStaticMethod took 0.141 sec
+Testcase: testRoundtripLoop took 0.128 sec
+Testcase: testHiddenRoundtrip took 0.118 sec
+Testcase: testHiddenRoundtripException took 0.151 sec
+Testcase: testNativeClInit took 0.149 sec
+Testcase: testNativeInit took 0.1 sec
+Testcase: testNativeCreate2DimIntArray took 0.1 sec
+Testcase: testNativeCreateIntArray took 0.088 sec
+Testcase: testNativeCreateStringArray took 0.097 sec

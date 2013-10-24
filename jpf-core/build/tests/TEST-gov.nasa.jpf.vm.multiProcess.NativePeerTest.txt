@@ -1,0 +1,19 @@
+Testsuite: gov.nasa.jpf.vm.multiProcess.NativePeerTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.621 sec
+------------- Standard Output ---------------
+  running jpf with args: +vm.max_transition_length=MAX
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.vm.multiProcess.NativePeerTest.runTestMethod()+gov.nasa.jpf.vm.multiProcess.NativePeerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:35 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:35 PM
+------------- ---------------- ---------------
+
+Testcase: nativePeerTest took 0.607 sec

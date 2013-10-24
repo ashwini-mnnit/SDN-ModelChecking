@@ -1,0 +1,109 @@
+Testsuite: gov.nasa.jpf.test.vm.reflection.FieldTest
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 1.421 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.FieldTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.FieldTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+pub_y_i
+pub_y_s
+pub_x_i
+pub_x_s
+I_S
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.FieldTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+statInt = 43
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.FieldTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.FieldTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.FieldTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.reflection.FieldTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testSetReference took 0.545 sec
+Testcase: testGetFields took 0.214 sec
+Testcase: testStaticInt took 0.149 sec
+Testcase: testInstanceDouble took 0.126 sec
+Testcase: testSetPrimitive took 0.124 sec
+Testcase: testSetArray took 0.127 sec
+Testcase: testInstanceInt took 0.115 sec

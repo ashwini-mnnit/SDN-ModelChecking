@@ -1,0 +1,291 @@
+Testsuite: gov.nasa.jpf.test.mc.threads.DeadlockTest
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.702 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread java.lang.Thread:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  owned locks:java.lang.Object@176
+  waiting on: java.lang.Object@177
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$3.run(DeadlockTest.java:214)
+
+thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:java.lang.Object@177
+  blocked on: java.lang.Object@176
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$4.run(DeadlockTest.java:229)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread java.lang.Thread:{i..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+t2 finished
+t1 finished
+t2 finished
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread java.lang.Thread:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: java.lang.Object@177
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$5.run(DeadlockTest.java:252)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread java.lang.Thread:{i..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread gov.nasa.jpf.test.mc.threads.DeadlockTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  thread gov.nasa.jpf.test.mc.threads.DeadlockTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread gov.nasa.jpf.test.mc.threads.DeadlockTest$FirstTask:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.DeadlockTest$Event@191
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$Event.wait_for_event(DeadlockTest.java:60)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$FirstTask.run(DeadlockTest.java:85)
+
+thread gov.nasa.jpf.test.mc.threads.DeadlockTest$SecondTask:{id:2,name:Thread-2,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.DeadlockTest$Event@192
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$Event.wait_for_event(DeadlockTest.java:60)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SecondTask.run(DeadlockTest.java:115)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread gov.nasa.jpf.test.m..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable@198
+  blocked on: gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable@194
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable.run(DeadlockTest.java:139)
+
+thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable@194
+  blocked on: gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable@198
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable.doSomething(DeadlockTest.java:126)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable.run(DeadlockTest.java:156)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread java.lang.Thread:{i..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable@194
+  blocked on: gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable@195
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable.doSomething(DeadlockTest.java:126)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable.run(DeadlockTest.java:139)
+
+thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable@195
+  blocked on: gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable@194
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable.doSomething(DeadlockTest.java:126)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncBlockRunnable.run(DeadlockTest.java:139)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread java.lang.Thread:{i..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable@194
+  blocked on: gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable@195
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable.run(DeadlockTest.java:156)
+
+thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable@195
+  blocked on: gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable@194
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$SyncMthRunnable.run(DeadlockTest.java:156)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread java.lang.Thread:{i..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+# main thread terminating
+# t running
+# t waiting (forever)..
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread gov.nasa.jpf.test.mc.threads.DeadlockTest$7:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread gov.nasa.jpf.test.mc.threads.DeadlockTest$7:{id:1,name:Thread-1,status:WAITING,priority:5,lockCount:1,suspendCount:0}
+  waiting on: gov.nasa.jpf.test.mc.threads.DeadlockTest$7@191
+  call stack:
+	at java.lang.Object.wait(Object.java)
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$7.run(DeadlockTest.java:369)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread gov.nasa.jpf.test.m..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.threads.DeadlockTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+t1 finished
+t2 finished
+t2 finished
+t1 finished
+t1 finished
+t1 finished
+t2 finished
+t1 finished
+
+====================================================== error 1
+gov.nasa.jpf.vm.NotDeadlockedProperty
+deadlock encountered:
+  thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:1,name:Thread-1,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:java.lang.Object@174
+  blocked on: java.lang.Object@175
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$1.run(DeadlockTest.java:174)
+
+thread java.lang.Thread:{id:2,name:Thread-2,status:BLOCKED,priority:5,lockCount:0,suspendCount:0}
+  owned locks:java.lang.Object@175
+  blocked on: java.lang.Object@174
+  call stack:
+	at gov.nasa.jpf.test.mc.threads.DeadlockTest$2.run(DeadlockTest.java:186)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NotDeadlockedProperty "deadlock encountered:   thread java.lang.Thread:{i..."
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: testNestedMonitorLockoutDeadlock took 0.535 sec
+Testcase: testSimpleMissedSignal took 0.234 sec
+Testcase: testMissedSignalDeadlock took 0.222 sec
+Testcase: testMixedDeadlock took 0.128 sec
+Testcase: testSyncBlockDeadlock took 0.137 sec
+Testcase: testSyncMthDeadlock took 0.121 sec
+Testcase: testTerminationDeadlock took 0.164 sec
+Testcase: testLockOrderDeadlock took 0.139 sec

@@ -1,0 +1,139 @@
+Testsuite: gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.657 sec
+------------- Standard Output ---------------
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +vm.ignore_uncaught_handler=false +vm.pass_uncaught_handler
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +vm.ignore_uncaught_handler=false +vm.pass_uncaught_handler
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +vm.ignore_uncaught_handler=false +vm.pass_uncaught_handler
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +vm.ignore_uncaught_handler=false +vm.pass_uncaught_handler
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.NullPointerException: test
+	at gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest$NPEHandlerExc.uncaughtException(ThreadExceptionHandlerTest.java:86)
+	at gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest$TestRunnable.run(ThreadExceptionHandlerTest.java:93)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:WAITING,priority:5,lockCount:0,suspendCount:0}
+  waiting on: java.lang.Thread@190
+  call stack:
+	at java.lang.Thread.join(Thread.java)
+	at gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.testHandlerThrowsExc(ThreadExceptionHandlerTest.java:244)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at gov.nasa.jpf.util.test.TestJPF.runTestMethod(TestJPF.java:603)
+
+thread java.lang.Thread:{id:1,name:Thread-1,status:RUNNING,priority:5,lockCount:0,suspendCount:0}
+  call stack:
+	at gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest$NPEHandlerExc.uncaughtException(ThreadExceptionHandlerTest.java:86)
+	at gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest$TestRunnable.run(ThreadExceptionHandlerTest.java:93)
+
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.NullPointerException: test  at gov.nasa...."
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +vm.ignore_uncaught_handler=false +vm.pass_uncaught_handler
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +vm.ignore_uncaught_handler=false +vm.pass_uncaught_handler
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.ThreadExceptionHandlerTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: testChildHandlerAfterTermination took 0.49 sec
+Testcase: testPrecedence1 took 0.241 sec
+Testcase: testPrecedence2 took 0.176 sec
+Testcase: testPrecedence3 took 0.159 sec
+Testcase: testHandlerThrowsExc took 0.15 sec
+Testcase: checkDefaults took 0.139 sec
+Testcase: testChildHandler took 0.151 sec
+Testcase: testChildDefaultHandler took 0.132 sec

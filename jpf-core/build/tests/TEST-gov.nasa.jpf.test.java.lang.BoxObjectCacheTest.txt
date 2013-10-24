@@ -1,0 +1,173 @@
+Testsuite: gov.nasa.jpf.test.java.lang.BoxObjectCacheTest
+Tests run: 12, Failures: 0, Errors: 0, Time elapsed: 1.89 sec
+------------- Standard Output ---------------
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+  running jpf with args: +vm.cache.low_byte=-100 +vm.cache.high_byte=100 +vm.cache.high_char=100 +vm.cache.low_short=-100 +vm.cache.high_short=100 +vm.cache.low_int=-100 +vm.cache.high_int=100 +vm.cache.low_long=-100 +vm.cache.high_long=100
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.java.lang.BoxObjectCacheTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:31 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:31 PM
+------------- ---------------- ---------------
+
+Testcase: testIntCache took 0.453 sec
+Testcase: testBooleanCache took 0.176 sec
+Testcase: testIntCacheBoxObject took 0.153 sec
+Testcase: testCharacterCacheBoxObject took 0.145 sec
+Testcase: testByteCacheBoxObject took 0.128 sec
+Testcase: testShortCacheBoxObject took 0.125 sec
+Testcase: testLongCacheBoxObject took 0.148 sec
+Testcase: testBooleanCacheBoxObject took 0.157 sec
+Testcase: testCharacterCache took 0.096 sec
+Testcase: testByteCache took 0.093 sec
+Testcase: testShortCache took 0.085 sec
+Testcase: testLongCache took 0.111 sec

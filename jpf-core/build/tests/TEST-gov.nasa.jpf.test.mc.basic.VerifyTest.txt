@@ -1,0 +1,111 @@
+Testsuite: gov.nasa.jpf.test.mc.basic.VerifyTest
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 1.461 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener+=,gov.nasa.jpf.test.mc.basic.VerifyTest$CountBacktrack +vm.max_transition_length=MAX
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args: +hum=didum
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+got hum=didum
+got foo=bar
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== Grouped By: type
+All  (choices: 0, generators: 0)
+
+====================================================== Grouped By: package, class, method, instruction, type
+All  (choices: 0, generators: 0)
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+  running jpf with args:
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.mc.basic.VerifyTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:33 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:33 PM
+------------- ---------------- ---------------
+
+Testcase: backtrackNotificationAfterIgnore took 0.542 sec
+Testcase: testBreak took 0.225 sec
+Testcase: testProperties took 0.141 sec
+Testcase: testChangeListener took 0.127 sec
+Testcase: testGetBoolean took 0.14 sec
+Testcase: testGetBooleanFalseFirst took 0.134 sec
+Testcase: testBitSet took 0.133 sec

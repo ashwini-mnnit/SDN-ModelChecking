@@ -1,0 +1,75 @@
+Testsuite: gov.nasa.jpf.test.vm.threads.LockedStackDepthTest
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.204 sec
+------------- Standard Output ---------------
+  running jpf with args: +listener+=,.listener.LockedStackDepth
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.LockedStackDepthTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +listener+=,.listener.LockedStackDepth
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.LockedStackDepthTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +listener+=,.listener.LockedStackDepth
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.LockedStackDepthTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +listener+=,.listener.LockedStackDepth +search.class=gov.nasa.jpf.search.heuristic.BFSHeuristic
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.LockedStackDepthTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+  running jpf with args: +listener+=,.listener.LockedStackDepth +search.class=gov.nasa.jpf.search.heuristic.RandomHeuristic
+JavaPathfinder v7.0 (rev 1124) - (C) RIACS/NASA Ames Research Center
+
+
+====================================================== system under test
+gov.nasa.jpf.test.vm.threads.LockedStackDepthTest.runTestMethod()
+
+====================================================== search started: 10/23/13 9:34 PM
+
+====================================================== results
+no errors detected
+
+====================================================== search finished: 10/23/13 9:34 PM
+------------- ---------------- ---------------
+
+Testcase: recursiveLock took 0.523 sec
+Testcase: hitSameStateThroughDifferentSearchPaths took 0.253 sec
+Testcase: waitRetainsDepth took 0.141 sec
+Testcase: breadthFirstSearch took 0.145 sec
+Testcase: randomHeuristicSearch took 0.122 sec
